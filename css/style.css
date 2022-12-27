@@ -358,25 +358,26 @@ body{
 }
 
 .customers-item{
+    flex-basis: 168px;
     margin-right: 24px;
 }
 
 .customers-link{
     display: flex;
+    height: 88px;
     align-items: center;
     justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;
 }
 
-.customers-link:hover,
-.customers-link:focus{
-    border: 1px solid var(--iris);
+.customers-icon{
+    fill: var(--clientcolor);
 }
 
-.customers-icon{
-    margin: 16px 32px;
-    fill: var(--clientcolor);
+.customers-link:hover,
+.customers-link:focus {
+    border: 1px solid var(--iris);
 }
 
 .customers-icon:hover,
@@ -457,7 +458,7 @@ body{
 }
 
 .footer-social_list{
-    margin-right: 24px;
+    margin-right: 16px;
 }
 
 .footer-social_list:last-child {
