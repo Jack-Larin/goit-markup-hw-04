@@ -81,8 +81,7 @@ body{
 
 
 
-/* Header */
-
+/* ________________________Header________________________ */
 
 .header{
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -161,7 +160,8 @@ body{
 }
 
 
-/* Hero */
+
+/* ________________________Hero________________________ */
 
 .hero{
     background-color: var(--navy-blue);
@@ -216,8 +216,8 @@ body{
 }
 
 
-/* benefits */
 
+/* ________________________benefits________________________ */
 
 .benefits-list .item{
     margin-right: 24px;
@@ -257,12 +257,7 @@ body{
 
 
 
-
-
-
-
-/* WORK */
-
+/* ________________________WORK________________________ */
 
 .work{
     padding-top: 0px;
@@ -282,7 +277,9 @@ body{
     margin-right: 24px;
 }
 
-/* Team */
+
+
+/* ________________________Team________________________ */
 
 .team{
     background-color: var(--cloud);
@@ -312,8 +309,6 @@ body{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-
-/*  */
 
 .team-social{
     align-items: center;
@@ -347,10 +342,10 @@ body{
 .team-social_item:focus {
     background-color: var(--iris-pressed);
 }
-/*  */
 
 
-/* customers */
+
+/* ________________________customers________________________ */
 
 .h2-customers{
     text-align: center;
@@ -368,21 +363,14 @@ body{
     align-items: center;
     justify-content: center;
     border: 1px solid #8E8F99;
+    fill: var(--clientcolor);
     border-radius: 4px;
 }
 
-.customers-icon{
-    fill: var(--clientcolor);
-}
-
 .customers-link:hover,
-.customers-link:focus {
-    border: 1px solid var(--iris);
-}
-
-.customers-icon:hover,
-.customers-icon:focus {
+.customers-link:focus{
     fill: var(--iris);
+    border: 1px solid var(--iris) ;
 }
 
 .customers-item:last-child{
@@ -395,8 +383,7 @@ body{
 
 
 
-
-/* footer */
+/* ________________________footer________________________ */
 
 .footer{
     background-color: var(--navy-blue);
@@ -426,10 +413,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
-
-/*  */
 
 .footer-social{
     margin-left: 120px;
@@ -471,11 +454,8 @@ body{
 }
 
 
-/*  */
 
-
-
-/* portfolio style */
+/* ________________________portfolio style________________________ */
 
 .btn-list{
     display: flex;
@@ -539,8 +519,6 @@ body{
 .feature-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-
 
 .feature-item:not(:nth-child(3n)){
     margin-right: 24px;
